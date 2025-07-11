@@ -70,6 +70,7 @@ nav{
     margin-right: 159px;
     gap: 220px;
     
+    
 }
 
 .section-title{
@@ -90,7 +91,7 @@ img{
 }
 .total-users{
     margin-top: 116px;
-    background-color: rgb(226, 220, 235);
+    background-color: #E6E6FA	;
     margin: 116px 159px;
     border-radius: 10px;
     
@@ -116,6 +117,8 @@ img{
     color: #4E47FF; 
     margin-top: 0px; 
     margin-bottom: 0px;
+    
+    
       
 }
 .numbers p{
@@ -131,6 +134,7 @@ img{
 .feedback{
     margin-left: 151px;
     margin-right: 149;
+    margin-bottom: 150px;
 }
 .feedback-title{
     color: #252432;
@@ -139,13 +143,21 @@ img{
     text-align: center;
 }
 .feedback-box{
-    background-color: #FFFFFF;
+    background-color: #FFFDF2;
     border-radius: 5px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
     box-shadow: black 2px;
     
+}
+.user-info{
+    display: flex;
+    
+    margin-left: 1px;
+}
+.for-ul li{
+    list-style: none
 }
 .imagebox{
     display: flex;
@@ -166,3 +178,106 @@ img{
     gap: 5px;
     justify-items: center;
 }
+.user-pp ul{
+    list-style: none;
+}
+/* form styles */
+.form-sec{
+    display: flex;
+    gap: 115px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5F8FF;
+    
+}
+form {
+    margin-right: 150px;
+    margin-bottom: 21px;
+}
+.formdesc input{
+    height: 70px;
+    border-radius: 5px;
+    background-color: white;
+    width: 50%;
+    
+}
+.email{
+    display: block;
+}
+.formhead{
+    font-size: 97px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 150px;
+    
+}
+.label{
+    display: block;
+    padding-right: 150px;
+}
+/* footer styling */
+.head{
+    font-size: 100px;
+    font-weight: bolder;
+    color: #4E47FF;
+    margin-bottom: 0px;
+}
+
+.footdesc{
+    color: #8987A1;
+    margin-top: 8px;
+    
+    
+    
+}
+.foot-section{
+    text-align: center;
+}
+.anchors a{ 
+    text-decoration: none;
+}
+.anchors li{
+    list-style: none;
+
+}
+.anchors{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    color: #8987A1;
+}
+footer{
+    margin-bottom: 103px;
+}
+/* hover effect on buttons */
+.nav-buttons:hover{
+    background-color: darkblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
